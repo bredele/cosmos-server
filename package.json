@@ -19,7 +19,8 @@
     "url": "https://github.com/bredele/cosmos-server/issues"
   },
   "dependencies": {
-    "feathers": "~0.3.1"
+    "feathers": "~0.3.1",
+    "component-emitter": "~1.1.2"
   },
   "devDependencies": {
     "mocha": "~1.18.2"
