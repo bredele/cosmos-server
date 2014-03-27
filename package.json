@@ -1,0 +1,27 @@
+{
+  "name": "cosmos-server",
+  "version": "0.0.0",
+  "description": "Cosmos server",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bredele/cosmos-server.git"
+  },
+  "keywords": [
+    "cosmos"
+  ],
+  "author": "Olivier Wietrich <olivier.wietrich@gmail.com> (http://github.com/bredele)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredele/cosmos-server/issues"
+  },
+  "dependencies": {
+    "feathers": "~0.3.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.18.2"
+  }
+}
