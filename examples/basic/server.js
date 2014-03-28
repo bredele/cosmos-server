@@ -1,8 +1,8 @@
 var cosmos = require('../..');
+var express = require('express');
 
-var app = cosmos();
+var app = express();
 
-app.use(cosmos.static(__dirname))
-app.use('posts', require('./posts'));
+app.use('users', require('./posts'));
 
 app.listen(8080);
