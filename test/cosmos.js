@@ -12,8 +12,13 @@ describe("API", function() {
 		assert(app.set);
 		assert(app.get);
 		assert(app.listen);
-		assert(app.configure);		
+		assert(app.configure);
 	});
+
+	it("should be a featherjs server", function() {
+		assert(app.service);		
+	});
+	
 	
 });
 
